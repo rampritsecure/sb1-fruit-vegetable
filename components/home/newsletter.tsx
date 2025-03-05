@@ -19,7 +19,7 @@ export default function Newsletter() {
   };
 
   return (
-    <section className="container">
+    <section className="w-full">
       <div className="bg-primary/5 rounded-lg p-8 md:p-12">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>

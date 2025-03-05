@@ -28,7 +28,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="container">
+    <section className="container mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {benefits.map((benefit, index) => (
           <motion.div

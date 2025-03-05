@@ -31,7 +31,7 @@ const posts = [
 
 export default function LatestPosts() {
   return (
-    <section className="container">
+    <section className="container mx-auto">
       <div className="flex justify-between items-center mb-12">
         <h2 className="text-3xl font-bold">Latest Blog Posts</h2>
         <Button variant="outline" asChild>

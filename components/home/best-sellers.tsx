@@ -45,7 +45,7 @@ export default function BestSellers() {
   const { addToCart, toggleWishlist, wishlist } = useStore();
 
   return (
-    <section className="container">
+    <section className="container mx-auto">
       <h2 className="text-3xl font-bold text-center mb-12">Best Sellers</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product, index) => (
